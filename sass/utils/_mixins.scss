@@ -1,0 +1,21 @@
+@mixin sizes{
+ color: #222;
+font-family: Poppins;
+font-size: 16.09px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@mixin btn{
+ display: flex;
+width: 132px;
+height: 56px;
+border: none;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background: var(--b, #EDA415);
+color: #FFF;
+font-size: 14px;
+font-weight: 600;
+}

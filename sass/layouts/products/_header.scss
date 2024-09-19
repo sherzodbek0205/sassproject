@@ -1,0 +1,24 @@
+.categories{
+ padding: 129px 63px;
+ display: flex;
+ gap: 0;
+}
+.left{
+display: flex;
+flex-direction: column;
+gap: 23px;
+.series{
+ display: flex;
+ justify-content: space-between;
+ width: 310px;
+}
+.first{
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+}
+}
+.right .cards{
+padding: 0;
+margin-left: 40px;
+}

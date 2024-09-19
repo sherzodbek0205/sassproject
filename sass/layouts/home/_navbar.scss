@@ -1,0 +1,98 @@
+@mixin btn{
+ display: flex;
+width: 132px;
+height: 56px;
+border: none;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background: var(--b, #EDA415);
+color: #FFF;
+font-size: 14px;
+font-weight: 600;
+}
+.navbar{
+a{
+ text-decoration: none;
+ color: black;
+}
+ .navtop{
+height: 74px;
+display: flex;
+padding: 22.5px 61px;
+align-items: center;
+justify-content: space-between;
+&-stick{
+ display: flex;
+ gap: 36px;
+}
+ }
+}
+.navmenu{
+
+ padding: 30.5px 67.79px;
+ height: 100px;
+ background: rgba(0, 63, 98, 1);
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ .input{
+  display: inline-flex;
+ input{
+  width: 438px;
+  height: 56px;
+  border-radius: 20px;
+  background: #FFF;
+  border: none;
+  padding: 15px;
+ }
+ button{
+ margin-left: -132px;
+ @include btn();
+ }
+ }
+ .sign{
+  display: flex;
+  align-items: center;
+  gap: 29px;
+ }
+p{
+color: rgba(255, 255, 255, 1);
+}
+}
+.navbottom{
+ display: flex;
+ height: 71px;
+padding:{
+ left: 63px;
+ right: 63px;
+}
+ align-items: center;
+ justify-content: space-between;
+ background: #F4F4F4;
+ button{
+  display: flex;
+width: 218px;
+height: 70px;
+justify-content: center;
+align-items: center;
+background: var(--b, #EDA415);
+border: none;
+color: #FFF;
+font-size: 14px;
+font-weight: 600;
+gap: 10px;
+
+ }
+ .tags{
+  display: flex;
+  align-items: center;
+  gap: 29px;
+ }
+ h6{
+  color: var(--a, #003F62);
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+ }
+}

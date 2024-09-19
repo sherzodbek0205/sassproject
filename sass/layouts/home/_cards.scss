@@ -1,0 +1,63 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 26.56px;
+	padding: 53px 100.01px;
+}
+.card1 {
+	display: flex;
+	width: 308.831px;
+	height: 313.748px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 37.374px;
+	border-radius: 19.671px;
+	border: 0.984px solid #b6b6b6;
+	.img {
+		display: flex;
+		gap: 50px;
+	}
+	.bt {
+		display: flex;
+		gap: 20.65px;
+	}
+}
+.bt button {
+	display: flex;
+	width: 204.576px;
+	height: 59.996px;
+	justify-content: center;
+	align-items: center;
+	gap: 4.918px;
+	border-radius: 19.671px;
+	background: #87bcd9;
+	border: none;
+	font-weight: 600;
+}
+.bt .bt2 {
+	width: 70.815px;
+}
+.card {
+	display: flex;
+	width: 308.831px;
+	height: 313.748px;
+	flex-direction: column;
+	justify-content: center;
+	padding: 13.28px;
+	gap: 9.835px;
+	border-radius: 19.671px;
+	border: 0.984px solid #b6b6b6;
+	.tt {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		img {
+			width: 117px;
+		}
+	}
+	h5 {
+		color: var(--a, #003f62);
+		font-size: 17.094px;
+	}
+}
